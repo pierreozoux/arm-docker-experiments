@@ -1,0 +1,8 @@
+IPFS:
+  build: .
+  ports:
+    - "5001:5001"
+    - "4001:4001"
+    - "8080:8080"
+  volumes:
+    - "data:/data"

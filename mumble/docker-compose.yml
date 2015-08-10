@@ -1,0 +1,6 @@
+mumble:
+  build: .
+  ports:
+    - "64738:64738"
+  volumes:
+    - "data:/data"

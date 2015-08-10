@@ -1,0 +1,5 @@
+#!/bin/bash
+
+chown -R 1000 /data
+exec sudo -u mumble /usr/sbin/murmurd -fg -ini /config/mumble-server.ini
+
